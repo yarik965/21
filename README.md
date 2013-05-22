@@ -1,13 +1,12 @@
-21
-==
-In this chapter, we discussedthe logical operators &&, || and !.De
-Morgan’slawscan sometimesmakeitmoreconvenient forustoexpress alogical expression. These
-laws statethatthe expression !( condition1 && condition2 ) is logically equivalent to theexpression
-(!condition1 || !condition2 ).Also,the expression !( condition1 || condition2 ) is logically equiv-
-alenttothe expression (!condition1 && !condition2 ).Use De Morgan’s laws to write equivalent
-expressions for each of thefollowing,thenwriteaprogramtoshowthatthe original expression and
-thenew expression in each case areequivalent:
-a) !( x<5)&&!(y>=7)
-b) !( a==b)|| !( g!=5)
-c) !( (x<=8)&&(y>4))
-d) !( (i>4)||(j<= 6 ))
+5.22. (Законы де Моргана) В этой главе мы обсуждали логические операции &&, 11 и !. 
+Законы де Моргана помогают иногда выразить с их помощью логические  
+выражения в более удобной форме. Эти законы гласят, что выражение \(условие1 && 
+условие2) логически эквивалентно выражению (\условие1 \ \ \условие2).  
+Аналогично выражение \(условие1 \ \ условие2) эквивалентно выражению (\условие1 
+&& \условие2). Используйте законы де Моргана для записи выражений,  
+эквивалентных каждому из приведенных ниже, а затем напишите программу, которая 
+показала бы в каждом случае эквивалентность исходного и нового выражений: 
+a) ! ( х < 5 ) && ! ( у >= 7 ) 
+b) ! ( а == Ь ) || ! ( g != 5 ) 
+c) ! ( ( х <= 8 ) && ( у > 4 ) ) 
+d) ! ( ( i > 4 ) | | ( j <=6 ) ) 
