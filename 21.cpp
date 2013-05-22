@@ -23,7 +23,7 @@ int _tmain(int argc, _TCHAR* argv[])
 			cout<<"3";
 	}
 	{
-		if (!((a==b)&&!(g!=5)))
+		if (!((a==b)&&(g!=5)))
 			cout<<"4"<<endl;
 	}
 	{
