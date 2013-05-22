@@ -1,7 +1,12 @@
+// 1231.cpp: определяет точку входа для консольного приложения.
+//
+
+#include "stdafx.h"
 #include <iostream>
+#include <conio.h>
 using namespace std;
 
-int main()
+int _tmain(int argc, _TCHAR* argv[])
 {
 	int x=10,y=1,a=3,b=3,g=5,Y=1,i=2,j=9;
 	
@@ -37,5 +42,6 @@ int main()
 		if (!((i>4)&&(j<=6)))
 			cout<<"8"<<endl;
 	}
+	getch();
 	return 0;
 }
